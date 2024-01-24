@@ -1,0 +1,18 @@
+.todoContainer {
+  position: relative;
+  background: white;
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.closeButton {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  font-weight: bold;
+  cursor: pointer;
+}

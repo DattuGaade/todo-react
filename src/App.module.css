@@ -1,0 +1,39 @@
+.App {
+  min-height: 100vh;
+  height: 100%;
+  text-align: center;
+  background: lightgray;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputContainer {
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+
+.inputContainer label {
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+}
+.inputContainer input,
+.inputContainer textarea {
+  width: 70%;
+}
+
+.submitButton {
+  width: fit-content;
+  margin: auto;
+}
+
+.listContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
